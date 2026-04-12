@@ -1,8 +1,7 @@
-function Header({ pendientes }) {
+function Header() {
   return (
     <header>
       <h1>TaskUPC</h1>
-      <p>{pendientes} tareas pendientes</p>
     </header>
   );
 }
